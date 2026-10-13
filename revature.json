@@ -1,0 +1,15 @@
+{
+  "type": "java",
+  "testFiles": [
+    {
+      "path": "src/test/java/FilterColumnsTest.java",
+      "testCases": [
+        {
+          "methodName": "problem1Test",
+          "label": "Verify only the firstname column is retrieved",
+          "description": "Runs problem1(), which should return a list of User objects populated only with firstname values from the site_user table, with id and lastname ignored (set to default/null)."
+        }
+      ]
+    }
+  ]
+}
